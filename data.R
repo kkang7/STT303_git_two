@@ -7,3 +7,5 @@ plot(Advertising$sales,Advertising$TV)
 
 model <- lm(sales ~ TV, data = Advertising)
 summary(model)
+
+plot(Advertising$sales, Advertising$TV)
